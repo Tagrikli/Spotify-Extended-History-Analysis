@@ -17,7 +17,7 @@ unique_songs_per_artist = unique_songs_per_artist.sort_values('Unique Song Count
 fig = px.bar(unique_songs_per_artist, 
              x='Artist Name', 
              y='Unique Song Count', 
-             title="Unique Song Counts by Artist",
+             title="Number of Unique Tracks Listened Per Artist",
              labels={'Artist Name': 'Artist', 'Unique Song Count': 'Unique Song Count'})
 
 fig.update_layout(xaxis=dict(title="Artist Name"), yaxis=dict(title="Unique Song Count"))

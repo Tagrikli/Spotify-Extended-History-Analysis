@@ -6,5 +6,10 @@
 
 ## Example Stats
 
-![Top Tracks of Each Month](plots/1m_top_tracks.png)
-![Number of Unique Tracks Listened Per Artist](plots/uniqe_by_artist.png)
+### Top Tracks of Each Month
+
+![Top Tracks of Each Month](plots/top_tracks_each_month.png)
+
+### Number of Unique Tracks Listened Per Artist
+
+![Number of Unique Tracks Listened Per Artist](plots/number_of_unique_tracks_per_artist.png)

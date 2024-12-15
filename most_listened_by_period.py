@@ -35,7 +35,7 @@ fig = px.bar(most_listened,
              x='period',
              y='count',
              color=AUDIO_FIELD.TRACK_NAME,
-             title=f"Top Tracks of {PERIOD}",
+             title=f"Top Tracks of Each Month",
              labels={'period': 'Time Period', 'count': 'Listen Count',
                      AUDIO_FIELD.TRACK_NAME: 'Track Name'},
              text=AUDIO_FIELD.TRACK_NAME)
